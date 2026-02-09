@@ -1,15 +1,25 @@
-from fastapi import APIRouter
-from app.schemas import SimulationRequest
+from fastapi import APIRouter, HTTPException
+from app.schemas import SimulationRequest, SimulationResponse
 from app.services.data_service import load_dataset
-from ..services.forecasting_service import forecast_demand
+from app.services.forecasting_service import forecast_demand
 from app.services.simulation_service import simulate_stockout
 
 router = APIRouter()
 
-@router.post("/simulate")
+@router.post("/simulate", response_model=SimulationResponse)
 def simulate(req: SimulationRequest):
-    df = load_dataset(req.dataset_id)
-    _, forecast, _, _ = forecast_demand(df)
+    try:
+        df = load_dataset(req.dataset_id)
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    try:
+        result = forecast_demand(df, horizon=req.horizon, model=req.model)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    forecast = result["forecast"]
 
     prob, days, risk = simulate_stockout(
         forecast, req.current_inventory, req.simulations
@@ -19,13 +29,4 @@ def simulate(req: SimulationRequest):
         "stockout_probability": prob,
         "expected_stockout_days": days,
         "risk_level": risk,
-    }
-
-def SimulationRequest(
-        demand_multiplier: float = 1.0,
-        lead_time_days: int = 7,
-):
-    return {
-        "demand_multiplier": demand_multiplier,
-        "lead_time_days": lead_time_days,
     }

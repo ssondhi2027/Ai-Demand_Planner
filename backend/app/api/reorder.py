@@ -1,13 +1,19 @@
-from fastapi import APIRouter
-from app.schemas import ReorderRequest
+from fastapi import APIRouter, HTTPException
+from app.schemas import ReorderRequest, ReorderResponse
 from app.services.data_service import load_dataset
 from app.services.inventory_service import calculate_reorder_point
 
 router = APIRouter()
 
-@router.post("/reorder")
+@router.post("/reorder", response_model=ReorderResponse)
 def recommend_reorder(req: ReorderRequest):
-    df = load_dataset(req.dataset_id)
+    try:
+        df = load_dataset(req.dataset_id)
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
     mean = df["demand"].mean()
     std = df["demand"].std()
 

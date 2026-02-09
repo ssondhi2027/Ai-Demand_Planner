@@ -28,7 +28,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 # -------------------------------
 def create_features(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
-    df["date"] = pd.to_datetime(df["date"])
+    df["date"] = pd.to_datetime(df["date"], format="%Y-%m-%d", errors="coerce")
 
     df["lag_1"] = df["demand"].shift(1)
     df["lag_7"] = df["demand"].shift(7)
@@ -43,7 +43,16 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
 # ARIMA Forecast
 # -------------------------------
 def forecast_arima(df: pd.DataFrame, horizon: int) -> dict:
-    series = df["demand"]
+    df = df.sort_values("date")
+    if len(df) < 10:
+        raise ValueError("Not enough data points for ARIMA forecast (min 10)")
+
+    series = df.groupby("date")["demand"].sum().sort_index()
+    freq = pd.infer_freq(series.index)
+    if freq is None:
+        series = series.asfreq("D", fill_value=0)
+    else:
+        series = series.asfreq(freq)
 
     model = ARIMA(series, order=(1, 1, 1))
     fitted = model.fit()
@@ -69,6 +78,10 @@ def forecast_arima(df: pd.DataFrame, horizon: int) -> dict:
 # XGBoost Forecast
 # -------------------------------
 def forecast_xgboost(df: pd.DataFrame, horizon: int) -> dict:
+    df = df.sort_values("date")
+    if len(df) < 30:
+        raise ValueError("Not enough data points for XGBoost forecast (min 30)")
+
     df_feat = create_features(df)
 
     features = [
@@ -96,10 +109,11 @@ def forecast_xgboost(df: pd.DataFrame, horizon: int) -> dict:
     # Validation metrics
     y_pred = model.predict(X_test)
     mae = mean_absolute_error(y_test, y_pred)
-    rmse = mean_squared_error(y_test, y_pred, squared=False)
+    rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
 
     # Recursive forecasting
     last_row = df_feat.iloc[-1:].copy()
+    last_date = pd.to_datetime(df["date"].iloc[-1])
     forecasts = []
 
     for _ in range(horizon):
@@ -112,7 +126,9 @@ def forecast_xgboost(df: pd.DataFrame, horizon: int) -> dict:
         last_row["lag_1"] = pred
         last_row["rolling_7"] = np.mean(forecasts[-7:])
         last_row["rolling_14"] = np.mean(forecasts[-14:])
-        last_row["day_of_week"] = (last_row["day_of_week"] + 1) % 7
+        last_date = last_date + pd.Timedelta(days=1)
+        last_row["day_of_week"] = last_date.dayofweek
+        last_row["month"] = last_date.month
 
     # Confidence intervals using residuals
     residuals = y_test - y_pred
