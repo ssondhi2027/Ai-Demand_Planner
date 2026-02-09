@@ -1,0 +1,1001 @@
+date,product_name,demand
+2024-02-02,Oven Mitts,57.0
+2024-02-04,LED Strip Lights Kit,1.0
+2024-02-05,Portable Leaf Blower,14.0
+2024-02-05,Blue Corn Tortilla Chips,20.0
+2024-02-05,Sliced Bell Peppers,70.0
+2024-02-06,Protein Bar Variety Pack,2.0
+2024-02-07,Smartphone Holder for Car,70.0
+2024-02-08,Chia Seeds,75.0
+2024-02-08,Carrot and Celery Sticks,49.0
+2024-02-10,Coffee Making Kit,8.0
+2024-02-11,LED Desk Lamp,5.0
+2024-02-13,Mango Salsa,47.0
+2024-02-13,Peach Green Tea,1.0
+2024-02-13,Rechargeable Electric Toothbrush,80.0
+2024-02-14,Chino Shorts,45.0
+2024-02-16,Adjustable Bar Stools,16.0
+2024-02-17,Beef Jerky,14.0
+2024-02-18,Wooden Blocks,100.0
+2024-02-19,Rechargeable Electric Screwdriver,43.0
+2024-02-19,Collapsible Colander,60.0
+2024-02-20,Canvas Tote Bag,44.0
+2024-02-23,Oversized Denim Shirt,49.0
+2024-02-24,Tea Infuser,100.0
+2024-02-24,Peach Salsa,50.0
+2024-02-25,Smart Plug,50.0
+2024-02-27,Cranberry Almond Cookies,51.0
+2024-02-28,Wireless Induction Charger,96.0
+2024-02-28,High-Quality Yoga Mat,67.0
+2024-02-28,Bamboo Toothbrush Holder,77.0
+2024-03-01,Wall-Mounted Wine Rack,34.0
+2024-03-02,Compressible Packing Cubes,64.0
+2024-03-03,Waterproof Rain Boots,22.0
+2024-03-03,Classic Caesar Salad Kit,12.0
+2024-03-03,Weighted Blanket,31.0
+2024-03-04,Video Camera,14.0
+2024-03-05,Portable Solar Phone Charger,64.0
+2024-03-06,Shatterproof Wine Glasses,56.0
+2024-03-06,Sweet Potatoes,99.0
+2024-03-07,Salsa Verde,63.0
+2024-03-09,Fried Rice,51.0
+2024-03-09,Breathable Face Mask Set,29.0
+2024-03-11,Vegetarian Sausage Links,41.0
+2024-03-11,Sriracha Chili Sauce,34.0
+2024-03-12,Pleated Midi Dress,92.0
+2024-03-13,Chickpeas,47.0
+2024-03-13,Wall Planner,92.0
+2024-03-13,Savory Italian Herbs,32.0
+2024-03-13,Elderberry Syrup,82.0
+2024-03-14,Pumpkin Waffles,25.0
+2024-03-15,Bamboo Cutting Board Set,29.0
+2024-03-15,Handmade Leather Wallet,78.0
+2024-03-17,Home Delivery Food Journal,99.0
+2024-03-17,Outdoor Adventure Backpack,99.0
+2024-03-18,Electric Heat Press Machine,31.0
+2024-03-19,Herb Garlic Butter,4.0
+2024-03-21,Plant Watering Spikes,68.0
+2024-03-22,Ginger Turmeric Shots,81.0
+2024-03-22,Honey,18.0
+2024-03-24,Sporty Leggings,52.0
+2024-03-24,Butternut Squash Soup,13.0
+2024-03-24,Portable Solar Path Lights,2.0
+2024-03-25,Chili Garlic Sauce,51.0
+2024-03-25,Electric Screwdriver,36.0
+2024-03-26,Car Phone Mount,8.0
+2024-03-26,Fire Roasted Salsa,21.0
+2024-03-27,Blueberry Muffin Mix,31.0
+2024-03-28,Portable UV Sterilizer,77.0
+2024-03-29,Basmati Rice,72.0
+2024-03-29,Bamboo Cotton Tank Top,2.0
+2024-03-30,Gluten-Free Brownies,55.0
+2024-03-31,Chickpea Flour,63.0
+2024-04-03,Organic Brown Rice Cakes,77.0
+2024-04-04,Window Bird Feeder with Suction Cups,90.0
+2024-04-05,Chia Seeds,34.0
+2024-04-05,Teriyaki Beef Jerky,80.0
+2024-04-07,Apple Juice,35.0
+2024-04-07,Tennis Racket,37.0
+2024-04-08,Pet Training Pads,86.0
+2024-04-09,Peach Halves (canned),33.0
+2024-04-10,Nordic Berry Smoothie,59.0
+2024-04-10,Artisan Flatbreads,88.0
+2024-04-10,Honey Mustard Sauce,9.0
+2024-04-10,Nail Polish Set,27.0
+2024-04-12,Electric Wine Opener,50.0
+2024-04-12,Sriracha Sauce,38.0
+2024-04-12,Smartphone Tripod,46.0
+2024-04-13,Protein Bar Variety Pack,82.0
+2024-04-13,Handmade Leather Wallet,93.0
+2024-04-13,Golf Putting Green,72.0
+2024-04-14,Colorful Post-It Notes Set,7.0
+2024-04-14,Winter Knit Beanie,57.0
+2024-04-14,Smart Thermostat with Wi-Fi,12.0
+2024-04-15,Chicken Broth,1.0
+2024-04-15,Pasta Primavera Kit,92.0
+2024-04-16,Classic Caesar Dressing,37.0
+2024-04-17,Chipotle Sauce,82.0
+2024-04-17,Microfiber Cleaning Cloth Set,14.0
+2024-04-18,Picnic Blanket,93.0
+2024-04-19,Cabbage Slaw Mix,27.0
+2024-04-19,Cranberry Juice,52.0
+2024-04-20,Roasted Garlic Mashed Potatoes,92.0
+2024-04-21,Almond Milk,72.0
+2024-04-21,Inspirational Wall Art,90.0
+2024-04-22,Spinach Artichoke Dip,89.0
+2024-04-22,Basic V-Neck T-Shirt,28.0
+2024-04-23,Plaid Flannel Shirt,70.0
+2024-04-23,Chili Lime Shrimp,58.0
+2024-04-23,Ricotta Cheese,63.0
+2024-04-24,Slim Wallet,99.0
+2024-04-25,Rice Pilaf Mix,7.0
+2024-04-26,Chocolate Mint Thins,80.0
+2024-04-28,Bock Beer Mustard,67.0
+2024-04-29,Caribbean Jerk Marinade,75.0
+2024-04-30,Lentil Pasta,57.0
+2024-04-30,Organic Quinoa Salad,91.0
+2024-05-01,Quinoa & Black Bean Salad,66.0
+2024-05-01,Lemon Dill Salmon,69.0
+2024-05-01,Insulated Sport Tumbler,22.0
+2024-05-02,Sweet Potatoes (organic),31.0
+2024-05-02,Digital Photo Frame,62.0
+2024-05-02,Dish Rack,28.0
+2024-05-02,Camping Lantern,89.0
+2024-05-04,Lemon Basil Pasta Sauce,33.0
+2024-05-06,Sesame Noodles,48.0
+2024-05-09,Pet Hair Vacuum Cleaner Attachment,10.0
+2024-05-09,Set of Silicone Baking Molds,73.0
+2024-05-10,Pet Hair Remover,73.0
+2024-05-12,Inflatable Paddle Board,31.0
+2024-05-12,Miso Dressing,1.0
+2024-05-13,Kids' Gardening Tools Set,6.0
+2024-05-15,Emergency Preparedness Kit,63.0
+2024-05-16,Pet Bed,9.0
+2024-05-16,Wireless Music Receiver,52.0
+2024-05-18,Foldable Yoga Mat Carry Bag,64.0
+2024-05-20,Electric Ice Cream Maker,28.0
+2024-05-20,Travel Size Toiletry Bottles,60.0
+2024-05-20,Jalapeño Cornbread,70.0
+2024-05-21,Lightweight Travel Backpack,38.0
+2024-05-23,Mango Chutney,59.0
+2024-05-23,Vegan Taco Seasoning,3.0
+2024-05-24,Travel Luggage Scale,63.0
+2024-05-25,Wall Art Stickers,54.0
+2024-05-25,Vegetable Broth,16.0
+2024-05-26,Organic Brown Sugar,98.0
+2024-05-27,Marinated Artichokes,91.0
+2024-05-27,Rechargeable Laptop Battery Pack,65.0
+2024-05-27,Travel Laundry Bag,63.0
+2024-05-28,Eco-Friendly Cleaning Cloths,90.0
+2024-05-29,Kids' Gardening Kit,27.0
+2024-05-30,Lentil Vegetable Stew,51.0
+2024-05-30,Frozen Acai Purée,32.0
+2024-05-30,Tailored Blazer,27.0
+2024-05-30,Mesh Laundry Bags Set,11.0
+2024-05-30,Savory Oatmeal Cups,56.0
+2024-05-30,Craft Beer Mustard,43.0
+2024-06-01,Art Supplies Organizer,76.0
+2024-06-01,Teriyaki Tofu Stir-Fry,86.0
+2024-06-01,Foldable Electric Scooter,54.0
+2024-06-02,Memory Foam Mattress Pad,96.0
+2024-06-02,Lightweight Workout Tank,9.0
+2024-06-02,Travel Document Organizer,16.0
+2024-06-02,Wireless Range Extender,62.0
+2024-06-03,Portable UV Sterilizer,98.0
+2024-06-03,Running Shorts,77.0
+2024-06-04,Smart WiFi Plug,36.0
+2024-06-04,Self-Massaging Pillow,85.0
+2024-06-05,Hydration Backpack,29.0
+2024-06-06,Traditional Hummus,45.0
+2024-06-06,Electric Rice Cooker with Steamer,44.0
+2024-06-06,Hiking Boots,74.0
+2024-06-07,High-Speed Blender,85.0
+2024-06-07,Smart Plant Monitor,90.0
+2024-06-07,Green Tea Matcha Powder,57.0
+2024-06-08,Acoustic Guitar,17.0
+2024-06-09,Bluetooth Car Adapter,24.0
+2024-06-09,Blueberry Chia Jam,12.0
+2024-06-09,Stainless Steel Straws,5.0
+2024-06-10,Creamy Tomato Basil Soup,86.0
+2024-06-11,Pet Training Pads,54.0
+2024-06-11,Lemon Garlic Shrimp,73.0
+2024-06-12,Pineapple Coconut Rice Mix,38.0
+2024-06-15,Voice-Controlled Speaker,94.0
+2024-06-15,Gardening Fairy Figurines,13.0
+2024-06-16,Organic Coconut Flour,62.0
+2024-06-16,Pet Travel Bed,31.0
+2024-06-16,Vegetable Samosas,49.0
+2024-06-20,Fridge Magnet Set,98.0
+2024-06-21,Relaxed Fit Henley Shirt,43.0
+2024-06-21,Chocolate Coconut Protein Balls,89.0
+2024-06-22,Chocolate Fudge Brownie Mix,78.0
+2024-06-22,Spicy Salsa Verde,56.0
+2024-06-24,Tandoori Chicken Marinade,70.0
+2024-06-24,Frozen Pizza,6.0
+2024-06-24,Travel Document Organizer,29.0
+2024-06-25,Elegant Lace Dress,3.0
+2024-06-25,Sweet Potato Noodles,42.0
+2024-06-25,Smart Light Switch,66.0
+2024-06-26,Electric Stool Heater,88.0
+2024-06-27,Bamboo Utensil Set,74.0
+2024-06-28,Sparkling Blood Orange Soda,15.0
+2024-06-28,Chocolate Covered Pretzels,35.0
+2024-07-02,Vegetable Spring Rolls,82.0
+2024-07-02,Spicy Tuna Salad,89.0
+2024-07-02,USB Flash Drive,34.0
+2024-07-04,Wireless Earbud Silicone Covers,67.0
+2024-07-04,Pork Tenderloin,88.0
+2024-07-06,Pumpkin Pancake Mix,42.0
+2024-07-06,Coconut Almond Granola,53.0
+2024-07-06,Car Vacuum,13.0
+2024-07-07,Digital Alarm Clock,1.0
+2024-07-08,Vegan Mayonnaise,80.0
+2024-07-09,Dog Training Clicker,39.0
+2024-07-09,Artisan Pickles,86.0
+2024-07-09,Body Pillow Case,48.0
+2024-07-10,Reclining Camping Chair,20.0
+2024-07-10,Samoas Cookie Mix,48.0
+2024-07-11,Collapsible Colander,27.0
+2024-07-11,Cinnamon Roll Protein Bar,83.0
+2024-07-12,Brown Rice,49.0
+2024-07-12,Striped Long Sleeve Shirt,12.0
+2024-07-12,Beef Stroganoff Mix,35.0
+2024-07-13,Chocolate Covered Pretzels,7.0
+2024-07-14,Vegan Mayonnaise,27.0
+2024-07-15,Coconut Milk Ice Cream,87.0
+2024-07-15,Jasmine Rice,94.0
+2024-07-16,Wireless Keyboard and Mouse Combo,100.0
+2024-07-16,Butternut Squash Ravioli,48.0
+2024-07-16,Portable Projector,7.0
+2024-07-16,Portable Pet Stroller,96.0
+2024-07-17,Puffed Rice Cake,60.0
+2024-07-18,Essential Oils Diffuser Necklace,93.0
+2024-07-18,Puffer Winter Coat,57.0
+2024-07-19,Electric Skillet,75.0
+2024-07-20,Garden Tool Belt,93.0
+2024-07-21,Frozen Acai Bowl,57.0
+2024-07-23,Italian Meatballs,90.0
+2024-07-24,Smart Wi-Fi Camera,49.0
+2024-07-25,Electric Opener for Jars and Bottles,91.0
+2024-07-26,Microfiber Cleaning Cloths,58.0
+2024-07-28,Portable Hand Warmer,6.0
+2024-07-30,Reusable Produce Bags Set,61.0
+2024-07-31,Coconut Yogurt,4.0
+2024-08-01,Portable Solar Charger,77.0
+2024-08-01,Chipotle Black Bean Salad,95.0
+2024-08-01,Mini Indoor Hydroponic Garden,59.0
+2024-08-02,Vegetable Fried Rice Mix,56.0
+2024-08-02,Kale and Quinoa Salad,63.0
+2024-08-02,Trendy Bomber Jacket,43.0
+2024-08-03,Vegetable Spiralizer,84.0
+2024-08-03,Pet Reflective Vest,75.0
+2024-08-04,Denim Jacket,71.0
+2024-08-05,Wireless Music Receiver,96.0
+2024-08-06,Pumpkin Spice Granola,42.0
+2024-08-06,Bluetooth Car Adapter,7.0
+2024-08-08,Multi-Port USB Hub,30.0
+2024-08-10,Memory Foam Pillow,43.0
+2024-08-10,Portable Massage Gun,45.0
+2024-08-10,Memory Card,78.0
+2024-08-10,Digital Photo Frame,18.0
+2024-08-11,Wild Rice Pilaf,62.0
+2024-08-11,Crispy Potato Tots,84.0
+2024-08-12,Mashed Sweet Potatoes,28.0
+2024-08-13,Vegetarian Pizza,89.0
+2024-08-13,Cabbage,23.0
+2024-08-14,Maple Bacon Potato Chips,72.0
+2024-08-14,Elderberry Syrup Kit,84.0
+2024-08-15,Greek Yogurt Parfait,60.0
+2024-08-17,LED Strip Light Kit,12.0
+2024-08-19,Collapsible Folding Chair,73.0
+2024-08-19,Almond Flour Biscuits,82.0
+2024-08-20,Wireless Music Receiver,55.0
+2024-08-20,Couscous,94.0
+2024-08-20,Free-Range Eggs,49.0
+2024-08-22,Key Finder,82.0
+2024-08-24,Whole Grain Mustard,62.0
+2024-08-25,Luminous Night Light,23.0
+2024-08-26,Portable Air Compressor,62.0
+2024-08-26,Turkey Bacon,42.0
+2024-08-26,Popcorn Chicken,40.0
+2024-08-27,Skincare Set,98.0
+2024-08-28,Luxury Memory Foam Mattress Topper,74.0
+2024-08-28,Pet Bed with Removable Cover,50.0
+2024-08-30,Compact Dishwasher,31.0
+2024-08-31,Beef Sirloin Steak,86.0
+2024-08-31,Blue Corn Tortilla Chips,94.0
+2024-09-04,Colorful Post-It Notes Set,89.0
+2024-09-05,Induction Cooktop,11.0
+2024-09-05,Reversible Comforter Set,97.0
+2024-09-05,LED Strip Lights with Remote Control,3.0
+2024-09-07,Leather Crossbody Bag,56.0
+2024-09-08,Spinach and Feta Stuffed Chicken Breast,35.0
+2024-09-09,Chocolate Coconut Granola,40.0
+2024-09-10,Shredded Cheese,52.0
+2024-09-10,Portable Air Compressor,61.0
+2024-09-11,Sriracha Honey Glaze,34.0
+2024-09-11,Vegetable Potstickers,71.0
+2024-09-11,Frozen Vegetarian Pizza,13.0
+2024-09-11,Classic Watch,77.0
+2024-09-12,Almond Quinoa Salad,84.0
+2024-09-12,Pet Food Storage Container,11.0
+2024-09-14,Honey mustard chicken tenders,14.0
+2024-09-14,Samoas Cookie Mix,48.0
+2024-09-14,Cauliflower Gnocchi,63.0
+2024-09-14,Potting Soil,25.0
+2024-09-14,Portable Camping Shower,33.0
+2024-09-15,Garden Vegetable Soup,8.0
+2024-09-15,Margherita Pizza,20.0
+2024-09-16,Peach Fruit Cups,67.0
+2024-09-17,Puff Pastry,46.0
+2024-09-17,Matcha Green Tea Powder,15.0
+2024-09-18,Picnic Blanket,27.0
+2024-09-18,Pesto Pasta Sauce,92.0
+2024-09-19,Crispy Kale Chips,54.0
+2024-09-19,Granola Clusters,7.0
+2024-09-20,Electric Rice Cooker,97.0
+2024-09-20,Graphic Hoodie,62.0
+2024-09-20,Classic BBQ Sauce,19.0
+2024-09-22,Compact Folding Table,44.0
+2024-09-22,Bamboo Toothbrush Holder,81.0
+2024-09-23,Coconut Water,17.0
+2024-09-23,Teriyaki Beef Strips,2.0
+2024-09-24,Coconut Oil Spray,91.0
+2024-09-24,Mini Fondue Set,73.0
+2024-09-24,Fitness Tracker Band,8.0
+2024-09-25,Pasta (Linguine),98.0
+2024-09-26,Kids' Science Experiment Kit,11.0
+2024-09-28,Chic Jumpsuit,14.0
+2024-10-01,Portable Water Filter,81.0
+2024-10-01,Almond Butter Cookies,52.0
+2024-10-02,Body Wash,4.0
+2024-10-02,Magnetic Puzzle Board,2.0
+2024-10-02,Mango Chilli Sauce,57.0
+2024-10-08,Honey Almond Granola Bars,53.0
+2024-10-09,Brazil Nuts,62.0
+2024-10-09,Yoga Mat Carrier,60.0
+2024-10-09,Customizable Wall Calendar,52.0
+2024-10-09,Maple Cinnamon Granola,38.0
+2024-10-09,Spinach Feta Wraps,10.0
+2024-10-10,Mini Indoor Herb Garden Kit,81.0
+2024-10-10,Fashionable Belt Bag,63.0
+2024-10-10,Portable Grill Cover,6.0
+2024-10-11,Ankle Boots,8.0
+2024-10-13,Non-Stick Baking Sheets,8.0
+2024-10-15,Savory Mushroom Risotto,93.0
+2024-10-15,Organic Spinach,10.0
+2024-10-17,Suction Cup Hooks,83.0
+2024-10-20,Frozen Broccoli,85.0
+2024-10-21,Drone,7.0
+2024-10-21,Digital Food Thermometer,36.0
+2024-10-23,Brown Sugar,98.0
+2024-10-23,Sweetened Condensed Milk,20.0
+2024-10-25,Honey BBQ Riblets,26.0
+2024-10-25,Chewy Granola Bars,71.0
+2024-10-27,Smartphone Gimbal,94.0
+2024-10-27,Pepper Jack Cheese Slices,92.0
+2024-10-31,High-Speed Blender,57.0
+2024-10-31,Portable Blender,53.0
+2024-11-01,Pet Hair Vacuum Attachment,43.0
+2024-11-02,Adjustable Pedicure Footrest,5.0
+2024-11-04,Cotton Sweatpants,38.0
+2024-11-05,Apple Cinnamon Granola,82.0
+2024-11-05,Kids' STEM Robotics Kit,71.0
+2024-11-07,Roasted Garlic,39.0
+2024-11-08,Teriyaki Beef Strips,9.0
+2024-11-09,Fitness Tracker Watch,71.0
+2024-11-09,Collapsible Colander,48.0
+2024-11-09,Energy Protein Bars,60.0
+2024-11-10,Savory Oats,65.0
+2024-11-10,Organic Quinoa Salad,40.0
+2024-11-11,Organic Baby Spinach,29.0
+2024-11-11,Golf Putting Green,42.0
+2024-11-12,Mobile Workbench,43.0
+2024-11-12,Electric Razor,87.0
+2024-11-14,Peanut Butter Banana Smoothie,66.0
+2024-11-14,Stainless Steel Water Pitcher,36.0
+2024-11-14,Turkey Bacon,61.0
+2024-11-15,Insulated Sport Tumbler,95.0
+2024-11-16,Smart Doorbell,63.0
+2024-11-17,Fruit Infuser Water Bottle,53.0
+2024-11-18,Athletic Compression Tights,10.0
+2024-11-18,Fruit and Nut Energy Bites,4.0
+2024-11-20,Camping Tent,42.0
+2024-11-22,Spicy BBQ Sauce,56.0
+2024-11-23,Margherita Pizza,97.0
+2024-11-23,French Onion Dip,87.0
+2024-11-24,Weighted Blanket for Adults,77.0
+2024-11-25,Plant Growing Kit,84.0
+2024-11-25,Wine Decanter,90.0
+2024-11-26,Lemon Herb Grilled Chicken,38.0
+2024-11-26,Kale Chips,21.0
+2024-11-27,Smoked Paprika Chicken Thighs,16.0
+2024-11-29,Teriyaki Chicken Wings,1.0
+2024-11-30,Flavored Instant Oatmeal,59.0
+2024-12-01,Sketchbook,100.0
+2024-12-01,Guitar Tuner,63.0
+2024-12-01,Maple Bacon Popcorn,9.0
+2024-12-02,Leather Crossbody Bag,95.0
+2024-12-04,Pet Water Fountain with Filtration,100.0
+2024-12-05,Pepperoni Pizza Roll-Ups,51.0
+2024-12-07,Fashionable Scarves Set,50.0
+2024-12-07,Ice Cube Tray with Lid,49.0
+2024-12-07,Tennis Racket,74.0
+2024-12-09,Electric Food Steamer,49.0
+2024-12-10,Almond Flour Pancake Mix,82.0
+2024-12-12,Pepperoni Pizza Rolls,10.0
+2024-12-13,Digital Wireless Meat Thermometer,26.0
+2024-12-13,Children's Science Experiment Lab Kit,75.0
+2024-12-14,Aeropress Coffee Maker,45.0
+2024-12-15,Pest Control Traps,31.0
+2024-12-15,Action Camera,35.0
+2024-12-15,Antique Style Clock,53.0
+2024-12-16,Maple Bacon Jerky,89.0
+2024-12-16,Sweet Potato & Kale Hash,17.0
+2024-12-16,High-Pressure Handheld Shower Head,85.0
+2024-12-16,Bluetooth Sleep Headphones,87.0
+2024-12-16,Set of Silicone Baking Molds,33.0
+2024-12-17,Workstation Laptop Stand,46.0
+2024-12-17,Plant-Based Meal Prep Containers,81.0
+2024-12-18,Lemon Basil Pasta Sauce,41.0
+2024-12-19,Banana Nut Muffins,11.0
+2024-12-20,Smart LED Light Strip,74.0
+2024-12-20,Chic Ankle Strap Heels,77.0
+2024-12-21,Induction Cooktop,78.0
+2024-12-21,Travel Eye Mask with Ear Plugs,14.0
+2024-12-22,Sriracha Chili Sauce,71.0
+2024-12-22,Robot Vacuum Cleaner,86.0
+2024-12-23,Pet Hair Removal Roller,52.0
+2024-12-23,Electric Griddle,20.0
+2024-12-23,Utility Cargo Pants,97.0
+2024-12-23,Pet Grooming Brush,2.0
+2024-12-23,Sports Windbreaker,87.0
+2024-12-25,Organic Granola,74.0
+2024-12-26,Peach Mango Smoothie Mix,28.0
+2024-12-27,Sweet and Spicy Barbecue Sauce,33.0
+2024-12-27,Dog Car Seat Cover,30.0
+2024-12-28,Portable Bluetooth Headphones,36.0
+2024-12-28,Spinach and Feta Stuffed Chicken Breast,90.0
+2025-01-01,Underwater Camera,72.0
+2025-01-01,Spinach and Ricotta Ravioli,31.0
+2025-01-02,Mini Fondue Set,19.0
+2025-01-02,Kids' STEM Robotics Kit,3.0
+2025-01-02,Barbecue Chicken Pizza,37.0
+2025-01-02,Portable Hammock Swing,59.0
+2025-01-03,Luxury Bath Salts,14.0
+2025-01-04,Bock Beer Mustard,74.0
+2025-01-04,Bike Helmet,48.0
+2025-01-05,Roasted Garlic Aioli,56.0
+2025-01-05,Travel Orthopedic Pillow,63.0
+2025-01-05,Vegetable Chips,94.0
+2025-01-06,Comfortable Bed Pillow,28.0
+2025-01-06,Electric Blanket,6.0
+2025-01-08,Wild Rice & Quinoa Mix,74.0
+2025-01-09,Ready-to-Eat Chili,37.0
+2025-01-10,Utility Cargo Pants,8.0
+2025-01-12,Noise-Canceling Headphones,12.0
+2025-01-12,Hand Mixer,15.0
+2025-01-12,Roasted Garlic Aioli,62.0
+2025-01-13,Electric Hot Water Dispenser,70.0
+2025-01-13,Ricotta Cheese,69.0
+2025-01-13,Dark Chocolate Covered Almonds,10.0
+2025-01-14,Roasted Garlic Aioli,41.0
+2025-01-15,Travel Organizer,36.0
+2025-01-15,Chipotle Seasoning Blend,74.0
+2025-01-16,Shredded Cheese,96.0
+2025-01-16,Biodegradable Trash Bags,54.0
+2025-01-16,Handcrafted Wooden Coasters,88.0
+2025-01-17,Chocolate Coconut Protein Balls,61.0
+2025-01-17,Wooden Puzzle Game,19.0
+2025-01-19,Scented Candles,86.0
+2025-01-19,Vegetarian Chili,91.0
+2025-01-21,Zucchini,1.0
+2025-01-21,Travel Yoga Mat,44.0
+2025-01-21,Roasted Garlic Pasta Sauce,41.0
+2025-01-22,Folding Backpack Chair,63.0
+2025-01-22,Kids Tablet,74.0
+2025-01-22,Freestanding Wine Rack,65.0
+2025-01-23,Personal Blender,13.0
+2025-01-24,Bamboo Cotton Tank Top,9.0
+2025-01-24,Teriyaki Stir-Fry Sauce,2.0
+2025-01-24,Fire Roasted Salsa,4.0
+2025-01-25,Portable Air Pump,53.0
+2025-01-25,Chili Beans in Sauce,3.0
+2025-01-25,Fashionable Scarves Set,84.0
+2025-01-25,Peanut Butter Banana Smoothie Mix,53.0
+2025-01-28,Belted Trench Coat,4.0
+2025-01-28,Balsamic Vinaigrette,50.0
+2025-01-28,Digital Kitchen Timer,100.0
+2025-01-30,Almond Flour Biscuits,42.0
+2025-01-31,Ankle Boots,97.0
+2025-02-01,Leek and Potato Soup,5.0
+2025-02-02,LED Canopy Lights,2.0
+2025-02-04,Quinoa Salad,65.0
+2025-02-04,Dark Chocolate Covered Almonds,74.0
+2025-02-04,Nutty Quinoa Salad,5.0
+2025-02-04,Frozen Mixed Vegetables,19.0
+2025-02-05,Roasted Chickpeas,30.0
+2025-02-06,Chic Ankle Strap Heels,52.0
+2025-02-06,Chocolate Mint Thins,5.0
+2025-02-07,Cat Tree with Scratching Posts,37.0
+2025-02-08,Air Mattress,66.0
+2025-02-08,Camping Lantern,68.0
+2025-02-08,Gaming Headset,21.0
+2025-02-10,Frozen Vegetarian Pizza,42.0
+2025-02-10,Backpack,20.0
+2025-02-11,Coffee Making Kit,76.0
+2025-02-12,Pesto Pasta Salad,31.0
+2025-02-12,Electric Rice Cooker,72.0
+2025-02-12,Wooden Blocks,8.0
+2025-02-13,Lasagna Noodles,15.0
+2025-02-18,Spicy Tuna Salad,9.0
+2025-02-19,Stainless Steel Water Bottle,29.0
+2025-02-19,Travel Size Toiletry Bottles,76.0
+2025-02-19,Peach & Mango Salsa,82.0
+2025-02-21,Foldable Yoga Mat Carry Bag,8.0
+2025-02-21,Habanero Hot Sauce,62.0
+2025-02-22,Flavored Popcorn Mix,30.0
+2025-02-23,Luminous Night Light,49.0
+2025-02-24,Peanut Butter Pretzel Nuggets,96.0
+2025-02-24,Pet Carrier Backpack,54.0
+2025-02-24,Sesame Seeds,30.0
+2025-02-25,Organic Coconut Yogurt,97.0
+2025-02-25,Pet Leash,87.0
+2025-02-26,Automatic Pet Feeder,5.0
+2025-02-26,Roasted Garlic Mashed Potatoes,14.0
+2025-02-27,Honey Mustard Pretzel Bites,43.0
+2025-02-27,Classic White T-Shirt,34.0
+2025-02-27,Caraway Rye Bread,20.0
+2025-02-28,Italian Marinara Sauce,4.0
+2025-03-01,Vegetarian Stir Fry Sauce,25.0
+2025-03-02,Vegetable Curry,79.0
+2025-03-02,Garden Hoses with Expandable Features,16.0
+2025-03-03,Chocolate Mint Thins,81.0
+2025-03-03,Pineapple Chunks (canned),96.0
+2025-03-04,Sliced Olives,89.0
+2025-03-05,Thai Green Curry Paste,21.0
+2025-03-06,Whole Grain Cereal,32.0
+2025-03-06,Crispy Rice Treats,22.0
+2025-03-06,Yoga Wheel,56.0
+2025-03-07,Compact Dishwasher,18.0
+2025-03-07,Magnetic Screen Door,21.0
+2025-03-08,Rechargeable Electric Toothbrush,100.0
+2025-03-08,Vegetable Samosas,56.0
+2025-03-08,Raspberry Lemonade Mix,33.0
+2025-03-09,Leather Wallet,96.0
+2025-03-11,Sriracha Honey Glaze,62.0
+2025-03-11,Pressure Cooker,22.0
+2025-03-14,Puzzle Game Set,93.0
+2025-03-16,Peanut Butter Protein Balls,82.0
+2025-03-17,Electric Egg Cooker,76.0
+2025-03-17,Spaghetti Squash,79.0
+2025-03-18,Microfiber Cleaning Cloth Set,40.0
+2025-03-18,Cotton Basic Tank,50.0
+2025-03-19,Home Office Chair,16.0
+2025-03-20,Carrot Sticks,15.0
+2025-03-22,Honey Sesame Chicken Mix,94.0
+2025-03-22,Chickpea Flour,45.0
+2025-03-23,Pumpkin Pancake Mix,44.0
+2025-03-24,Underwater Camera,69.0
+2025-03-25,Leather Notebook Cover,37.0
+2025-03-25,Portable Hammock,62.0
+2025-03-26,Multi-Purpose Marine Rope,20.0
+2025-03-26,Travel Mug,64.0
+2025-03-27,Car Emergency Kit,36.0
+2025-03-27,Personal Blender with Cups,30.0
+2025-03-28,Fitness Resistance Bands Set,26.0
+2025-03-28,Radish Chips,17.0
+2025-03-29,Kale Caesar Salad Kit,65.0
+2025-03-29,Drone,84.0
+2025-03-29,Chickpea Snack Mix,56.0
+2025-03-29,Spaghetti Sauce,64.0
+2025-03-30,Camera Lens Cleaning Kit,42.0
+2025-03-30,Chili Lime Corn Chips,83.0
+2025-03-31,Cheese Stuffed Jalapenos,6.0
+2025-03-31,Organic Vanilla Bean Ice Cream,32.0
+2025-03-31,Smart Plant Monitor,93.0
+2025-04-03,Laptop Sleeve,93.0
+2025-04-04,Pet Reflective Vest,46.0
+2025-04-04,Elderberry Syrup,77.0
+2025-04-05,Sweet Potatoes,71.0
+2025-04-05,Adjustable Kneeling Pad,74.0
+2025-04-05,Portable Pet Bathing Tool,61.0
+2025-04-06,Pineapple Coconut Rice Mix,21.0
+2025-04-07,Trendy Bomber Jacket,59.0
+2025-04-08,Coconut Milk,2.0
+2025-04-09,BBQ Sauce,17.0
+2025-04-09,Yoga Mat Carrier,45.0
+2025-04-09,Window A/C Unit,1.0
+2025-04-09,Caraway Rye Bread,69.0
+2025-04-10,Smartphone Stand,43.0
+2025-04-10,Sports Windbreaker,37.0
+2025-04-11,Smartphone Holder for Car,32.0
+2025-04-12,Harvest Grain Salad,82.0
+2025-04-12,Customizable Name Plate,76.0
+2025-04-12,Curried Lentil Salad,9.0
+2025-04-13,Multicolored LED Strip Lights,19.0
+2025-04-13,Fruit and Nut Bars,72.0
+2025-04-13,Plant-Based Meal Prep Containers,38.0
+2025-04-13,Creamy Garlic Mashed Potatoes,99.0
+2025-04-14,LED Christmas Tree Lights,1.0
+2025-04-14,Mini Air Purifier,25.0
+2025-04-15,Kids' Art Supplies Kit,27.0
+2025-04-15,Camping Tarp,21.0
+2025-04-16,Organic Whole Grain Oats,47.0
+2025-04-16,Maple Glazed Carrots,80.0
+2025-04-17,Smartphone Gimbal Stabilizer,56.0
+2025-04-17,Chipotle Black Bean Salad,55.0
+2025-04-18,Crispy Onion Rings,86.0
+2025-04-19,Mini Food Processor,80.0
+2025-04-20,Fitness Smartwatch,44.0
+2025-04-20,Kids' Trampoline,12.0
+2025-04-21,High-Speed HDMI Cable,7.0
+2025-04-22,Graphic Sweatshirt,8.0
+2025-04-22,Teriyaki Chicken Stir-Fry,84.0
+2025-04-23,Multi-Tool,79.0
+2025-04-24,Buffalo Sauce,94.0
+2025-04-24,Oven-Baked Cheese Crisps,39.0
+2025-04-26,Laptop Backpack,81.0
+2025-04-27,Sushi Rice,52.0
+2025-04-28,Solar String Lights,87.0
+2025-04-28,Maple Pecan Granola,27.0
+2025-04-30,Organic Whole Wheat Flour,12.0
+2025-05-01,Asian Stir-Fry Vegetables,35.0
+2025-05-01,Kale Caesar Salad Kit,3.0
+2025-05-03,Vanilla Protein Powder,62.0
+2025-05-03,Scented Candle Set,78.0
+2025-05-05,Thyme,15.0
+2025-05-06,Buffalo Cauliflower Bites,67.0
+2025-05-06,Truffle Parmesan Fries,41.0
+2025-05-06,Crispy Tofu Bites,62.0
+2025-05-06,LED Camping Lantern with USB Charging,92.0
+2025-05-07,Tomato Basil Pasta Sauce,27.0
+2025-05-07,Roasted Garlic Pasta Sauce,18.0
+2025-05-08,Ribbed Knit Dress,83.0
+2025-05-08,Lentils,57.0
+2025-05-08,Window Bird Feeder,45.0
+2025-05-09,Fitness Jump Rope with LCD Counter,83.0
+2025-05-09,Sweet Chili Dipping Sauce,67.0
+2025-05-10,Heart-Shaped Baking Molds,52.0
+2025-05-13,LED Camping Lantern with USB Charging,34.0
+2025-05-16,Pressure Washer Accessories Kit,15.0
+2025-05-17,Portable Pet Stroller,53.0
+2025-05-17,Kids' Building Blocks,54.0
+2025-05-17,Adjustable Height Standing Desk Converter,33.0
+2025-05-17,Traditional Hummus,45.0
+2025-05-17,Ice Cream Maker,29.0
+2025-05-18,Chocolate Chip Energy Balls,26.0
+2025-05-19,High-Top Leather Boots,70.0
+2025-05-20,Electric Griddle,66.0
+2025-05-21,Turkey Bacon,48.0
+2025-05-22,Instant Pot,20.0
+2025-05-22,Green Tea Matcha Powder,46.0
+2025-05-22,Car Vacuum Cleaner,27.0
+2025-05-22,Almond Flour Pizza Crust,8.0
+2025-05-26,Microfiber Cleaning Cloth Set,22.0
+2025-05-26,Reflective Safety Vest,33.0
+2025-05-26,Microfiber Cleaning Cloth Set,72.0
+2025-05-28,Balsamic Fig Dressing,86.0
+2025-05-29,Solar Garden Lights,36.0
+2025-05-30,Cable Knit Cardigan,36.0
+2025-05-31,Tomato Basil Soup,100.0
+2025-05-31,Travel Beach Blanket,69.0
+2025-05-31,Fitness Tracker Band,52.0
+2025-05-31,Fall-Themed Table Runner,35.0
+2025-06-01,Smart Thermostat,27.0
+2025-06-04,Nordic Berry Smoothie,3.0
+2025-06-04,Microfiber Cleaning Cloth Set,23.0
+2025-06-04,Ramen Noodles,6.0
+2025-06-05,Manual Coffee Grinder,55.0
+2025-06-05,Cocktail Shaker Set,98.0
+2025-06-05,Wooden Children's Play Kitchen,12.0
+2025-06-08,Basic V-Neck T-Shirt,95.0
+2025-06-08,Ice Cream,19.0
+2025-06-08,Buffalo Chicken Dip,61.0
+2025-06-08,Creamy Coleslaw Mix,57.0
+2025-06-11,Classic Beef Chili,34.0
+2025-06-11,Electric Food Steamer,32.0
+2025-06-12,Teriyaki Stir-Fry Sauce,45.0
+2025-06-12,Garlic Herb Grilled Chicken,43.0
+2025-06-13,Electric Wax Warmer,83.0
+2025-06-14,Vegetable Pizza Rolls,58.0
+2025-06-14,Laptop Stand,98.0
+2025-06-16,Lemon Herb Quinoa,59.0
+2025-06-17,Savory Oats,98.0
+2025-06-18,Travel Jewelry Organizer,5.0
+2025-06-19,Electric Toothbrush,55.0
+2025-06-19,Pet Bed,50.0
+2025-06-19,V-Neck Sweater,68.0
+2025-06-20,Cheesy Cauliflower Bake,51.0
+2025-06-22,Grilled Vegetable Medley,89.0
+2025-06-22,Children's Garden Tool Set,75.0
+2025-06-23,Linen Trousers,87.0
+2025-06-23,Yoga Mat,56.0
+2025-06-23,Compact Dishwasher,87.0
+2025-06-23,Cinnamon Raisin Bread,25.0
+2025-06-25,Sesame Noodles,8.0
+2025-06-26,Eco-Friendly Beeswax Wraps,29.0
+2025-06-28,Bluetooth Headphones,28.0
+2025-06-28,Lightweight Travel Backpack,10.0
+2025-06-28,Mini Cordless Vacuum Cleaner,42.0
+2025-06-29,Caramel Sauce,39.0
+2025-06-30,Roasted Garlic Mashed Potatoes,33.0
+2025-07-01,Vegetable and Cheese Quesadillas,28.0
+2025-07-03,Classic Cheeseburger Mix,3.0
+2025-07-04,Flavored Instant Oatmeal,63.0
+2025-07-04,Adjustable Garden Rake,66.0
+2025-07-04,Spicy Garlic Edamame,73.0
+2025-07-05,Ginger Snaps,47.0
+2025-07-06,Toasted Coconut Granola,87.0
+2025-07-08,Noise Cancelling Ear Muffs,32.0
+2025-07-11,Nut Butter Cups,76.0
+2025-07-11,Magnet Travel Fridge Magnets,22.0
+2025-07-13,Spicy Salsa Verde,18.0
+2025-07-15,Electric Toothbrush,50.0
+2025-07-15,Roasted Red Pepper Dip,96.0
+2025-07-15,Digital Kitchen Timer,46.0
+2025-07-16,Sweet Potato & Kale Hash,93.0
+2025-07-16,Biodegradable Dog Waste Bags,44.0
+2025-07-17,Sun-Dried Tomatoes,91.0
+2025-07-18,Weighted Blanket for Adults,58.0
+2025-07-19,Artisan Bread Loaf,72.0
+2025-07-20,Peach Preserves,33.0
+2025-07-21,Coconut Cream Pie Mix,86.0
+2025-07-23,Compact Dishwasher,52.0
+2025-07-24,Basic V-Neck T-Shirt,71.0
+2025-07-24,Diced Tomatoes (canned),29.0
+2025-07-25,Creamy Garlic Mashed Potatoes,46.0
+2025-07-26,Electric Heat Pad,35.0
+2025-07-26,Garlic Herb Cream Cheese,80.0
+2025-07-27,Smart Water Bottle with Hydration Reminder,100.0
+2025-07-27,Tortilla Chips,94.0
+2025-07-28,Non-Stick Grill Mat,98.0
+2025-07-28,Relaxed Fit Henley Shirt,15.0
+2025-07-29,Portable Water Filter,59.0
+2025-07-29,Wall Art Stickers,54.0
+2025-07-30,Vanilla Ice Cream,31.0
+2025-07-31,Rustic Italian Breads,32.0
+2025-07-31,Rolling Cooler,53.0
+2025-07-31,Chicken Fajita Kit,63.0
+2025-08-01,Eco-Friendly Yoga Blocks,61.0
+2025-08-01,Athletic Jogging Jacket,7.0
+2025-08-02,Leek and Potato Soup,31.0
+2025-08-03,Electric Toothbrush,14.0
+2025-08-03,Kids' Building Blocks,80.0
+2025-08-04,Portable Pet Water Bottle,90.0
+2025-08-04,Fruit Medley Juice,52.0
+2025-08-04,Electric Pressure Washer,87.0
+2025-08-05,Pet Safety Belt for Car,1.0
+2025-08-06,Scented Soy Candles,71.0
+2025-08-07,LED Under Cabinet Lighting,71.0
+2025-08-07,Kids' Craft Supplies Set,14.0
+2025-08-07,Outdoor Inflatable Pool,73.0
+2025-08-08,Essential Oil Roller Bottles,34.0
+2025-08-08,Chili Powder,20.0
+2025-08-09,Pork Chops,54.0
+2025-08-09,Chili Con Carne Mix,61.0
+2025-08-10,Oven-Baked Chicken Tenders,14.0
+2025-08-14,Pineapple Coconut Rice Mix,48.0
+2025-08-14,Spicy Chicken Wings,43.0
+2025-08-16,Travel Pillow with Memory Foam,84.0
+2025-08-17,Basic V-Neck T-Shirt,72.0
+2025-08-17,Bamboo Utensil Holder,22.0
+2025-08-18,USB Desk Fan,87.0
+2025-08-19,Pasta Salad Kit,54.0
+2025-08-20,Sweet Potato Chips,72.0
+2025-08-21,LED Camping Lantern with USB Charging,33.0
+2025-08-21,Chili Powder,50.0
+2025-08-21,Mashed Sweet Potatoes,63.0
+2025-08-23,Travel Pillow,39.0
+2025-08-23,Savory Snack Mix,9.0
+2025-08-24,Beard Grooming Kit,77.0
+2025-08-25,Relaxed Fit Henley Shirt,16.0
+2025-08-25,Wireless Printer,5.0
+2025-08-26,Magnetic Spice Containers,45.0
+2025-08-26,Action Camera,32.0
+2025-08-26,Guitar Tuner,68.0
+2025-08-26,Sweet Corn,66.0
+2025-08-28,Wireless Gaming Headset,39.0
+2025-08-28,Lemon Basil Pasta Sauce,84.0
+2025-08-29,Kids' Outdoor Explorer Kit,37.0
+2025-08-29,Low-Fat Yogurt,80.0
+2025-08-29,Cereal Dispenser with Portion Control,19.0
+2025-08-31,Electric Wine Opener,40.0
+2025-08-31,Tea Infuser,12.0
+2025-09-02,High-Top Leather Boots,35.0
+2025-09-03,Chiffon Blouse,20.0
+2025-09-03,Eco-Friendly Yoga Mat,34.0
+2025-09-04,Black Bean & Corn Salad,10.0
+2025-09-04,Shoe Organizer,91.0
+2025-09-04,Portable Hand Warmer,42.0
+2025-09-04,Outdoor Camping Hammock,97.0
+2025-09-04,Beef Chili,15.0
+2025-09-05,Garden Vegetable Soup,99.0
+2025-09-05,Savory Italian Herbs,55.0
+2025-09-07,Herbed Couscous,41.0
+2025-09-07,Bamboo Cutting Board Set,97.0
+2025-09-07,Smart Home Security Camera,49.0
+2025-09-09,Tomato Basil Soup,30.0
+2025-09-10,Motion Sensor Light,23.0
+2025-09-11,Air Fryer,86.0
+2025-09-12,Sesame Garlic Noodles,29.0
+2025-09-12,Portable Phone Charger,77.0
+2025-09-13,Warm Knit Beanie,35.0
+2025-09-14,Pepper Jack Cheese Slices,33.0
+2025-09-15,Watercolor Set,6.0
+2025-09-15,Camping Chair with Cooler,29.0
+2025-09-16,Leather Notebook Cover,10.0
+2025-09-17,Smart Scale,59.0
+2025-09-18,Almond Joy Protein Bars,44.0
+2025-09-18,Asian Noodle Salad Kit,28.0
+2025-09-19,Silicone Cooking Utensils Set,70.0
+2025-09-19,Rustic Italian Bread,79.0
+2025-09-20,Berries Medley,89.0
+2025-09-22,Cherry Almond Protein Bar,76.0
+2025-09-22,Nutty Quinoa Salad,39.0
+2025-09-23,Electric Griddle with Removable Plates,79.0
+2025-09-24,Wall-Mounted Organizer,67.0
+2025-09-24,Ripped Boyfriend Jeans,16.0
+2025-09-24,Almond Crunch Granola Bars,73.0
+2025-09-26,Maple Cinnamon Granola Bars,46.0
+2025-09-26,Portable Hand Warmer,99.0
+2025-09-26,Smartphone Camera Lens Kit,54.0
+2025-09-27,Pet Grooming Gloves,22.0
+2025-09-28,Travel Organizer,13.0
+2025-09-28,Rice Pudding,59.0
+2025-09-30,Savory Mushroom Risotto,22.0
+2025-09-30,Peanut Butter Filled Pretzels,95.0
+2025-10-01,Kids' Dinosaur-Themed Lunchbox,49.0
+2025-10-01,LED Strip Lights,62.0
+2025-10-01,LED Desk Lamp,62.0
+2025-10-03,Microwave Popcorn Maker,17.0
+2025-10-03,Workstation Laptop Stand,78.0
+2025-10-04,Baby Monitor,89.0
+2025-10-05,Motion Sensor Light,60.0
+2025-10-05,Sports Water Bottle with Infuser,38.0
+2025-10-06,LED Desk Lamp with USB Charging Port,50.0
+2025-10-06,Foldable Yoga Mat,72.0
+2025-10-07,Leather Crossbody Bag,24.0
+2025-10-07,Baked Potato Chips,79.0
+2025-10-07,High-Speed Hand Blender,74.0
+2025-10-09,Electric Pressure Washer,89.0
+2025-10-11,Sweet Corn,86.0
+2025-10-11,Honey Butter Popcorn,9.0
+2025-10-11,Hiking Boots,66.0
+2025-10-12,Mixed Berry Smoothie Pack,92.0
+2025-10-12,Beef Tacos,55.0
+2025-10-12,Wall-Mounted Bookshelf,41.0
+2025-10-13,Luxury Bathrobe,90.0
+2025-10-14,Frozen Edamame,84.0
+2025-10-15,Maple Chipotle Glaze,48.0
+2025-10-15,Smashed Avocado with Lime,55.0
+2025-10-16,Mango Chili Salsa,12.0
+2025-10-16,Breathable Face Mask Set,22.0
+2025-10-17,Eco-Friendly Beeswax Wraps,4.0
+2025-10-18,Cranberry Lime Sparkling Water,72.0
+2025-10-18,Self-Cleaning Cat Litter Box,92.0
+2025-10-19,Dried Apricots,18.0
+2025-10-21,Biodegradable Phone Case,67.0
+2025-10-21,Apple Pie Filling,81.0
+2025-10-22,Adjustable Kneeling Pad,47.0
+2025-10-23,Peanut Butter Cookies,18.0
+2025-10-24,Wireless Charging Pad,41.0
+2025-10-25,Nut Mix,26.0
+2025-10-26,Portable Air Pump,11.0
+2025-10-27,Falafel Mix,80.0
+2025-10-28,Dark Chocolate Almond Butter Cups,64.0
+2025-10-31,Smartphone Photography Tripod,40.0
+2025-10-31,Pet Carrier,1.0
+2025-11-01,Whisk Set,100.0
+2025-11-02,BBQ Jackfruit,76.0
+2025-11-02,Mixed Nuts,29.0
+2025-11-02,Coconut Chia Pudding,97.0
+2025-11-04,Lightweight Workout Tank,98.0
+2025-11-07,Cilantro Lime Rice,93.0
+2025-11-07,Hydration Backpack,39.0
+2025-11-07,Inflatable Paddle Board,66.0
+2025-11-08,Mango Chunks,14.0
+2025-11-08,Buffalo Style Cauliflower Bites,89.0
+2025-11-09,Personal Blender,43.0
+2025-11-09,Bluetooth Headphones,19.0
+2025-11-10,Compact Shoe Rack,100.0
+2025-11-11,Cauliflower Gnocchi,22.0
+2025-11-11,Garlic Parmesan Roasted Potatoes,84.0
+2025-11-13,Pesto Genovese,29.0
+2025-11-14,Sliced Cucumbers,92.0
+2025-11-15,Organic Green Lentils,74.0
+2025-11-15,Sliced Bell Peppers,44.0
+2025-11-16,Car Vacuum Cleaner,54.0
+2025-11-17,Wall Art Stickers,4.0
+2025-11-17,Couscous,96.0
+2025-11-17,Yoga Blocks,45.0
+2025-11-18,Vegetarian Sausage Links,83.0
+2025-11-18,Smoky BBQ Jackfruit,70.0
+2025-11-18,Italian Meatballs,1.0
+2025-11-19,Peas (frozen),26.0
+2025-11-20,Teriyaki Sauce,26.0
+2025-11-20,Compost Bin,70.0
+2025-11-20,Adjustable Garden Rake,59.0
+2025-11-21,Garlic Herb Seasoning,26.0
+2025-11-21,BBQ Jackfruit,56.0
+2025-11-21,Spinach and Feta Stuffed Chicken Breast,85.0
+2025-11-23,Apple Cinnamon Granola,99.0
+2025-11-24,Electric Opener for Jars and Bottles,77.0
+2025-11-24,Creamy Coleslaw Mix,11.0
+2025-11-25,Sweet Potatoes (organic),20.0
+2025-11-25,Microfiber Cleaning Cloth Set,78.0
+2025-11-26,Roasted Red Pepper Dip,14.0
+2025-11-26,Kids' Science Experiment Kit,46.0
+2025-11-26,Honey,92.0
+2025-11-27,Ice Cream Scoop,100.0
+2025-11-27,Infrared Thermometer,93.0
+2025-11-30,Multi-Function Smartphone Holder,72.0
+2025-12-01,Nut Mix,49.0
+2025-12-02,Children's Musical Instrument Set,34.0
+2025-12-02,Elderberry Syrup Kit,44.0
+2025-12-03,Portable Pet Water Bottle,24.0
+2025-12-03,Thai Peanut Noodles,8.0
+2025-12-05,Pet Water Bottle,43.0
+2025-12-08,Organic Lentil Soup,90.0
+2025-12-09,Laptop Backpack,18.0
+2025-12-11,Cork Yoga Mat,85.0
+2025-12-11,Vegetable Potstickers,51.0
+2025-12-11,Cinnamon Roll Kit,25.0
+2025-12-12,Folding Table,25.0
+2025-12-13,Smartphone Tripod with Remote,57.0
+2025-12-13,Stylish Wide-Leg Trousers,16.0
+2025-12-14,Quinoa and Kale Salad Kit,14.0
+2025-12-14,Fresh Basil,69.0
+2025-12-15,Indoor Grill,13.0
+2025-12-15,Children's Musical Instrument Set,14.0
+2025-12-17,Organic Almonds,3.0
+2025-12-17,Insulated Coffee Mug,100.0
+2025-12-18,Mechanical Pencil Set,66.0
+2025-12-19,Manual Coffee Grinder,73.0
+2025-12-19,Trail Mix (Deluxe),94.0
+2025-12-20,Portable Air Compressor,10.0
+2025-12-21,Organic Granola,47.0
+2025-12-21,Coconut Yogurt,87.0
+2025-12-22,Herb Drying Rack,7.0
+2025-12-24,Herb Seasoned Couscous,20.0
+2025-12-24,Honey Roasted Chickpeas,17.0
+2025-12-25,Organic Almond Flour,73.0
+2025-12-25,Dish Rack,18.0
+2025-12-27,Wireless Earbud Silicone Covers,85.0
+2025-12-27,Chunky Knit Sweater,28.0
+2025-12-28,Cinnamon Sugar Popcorn,29.0
+2025-12-28,Smartphone Stand,61.0
+2025-12-28,Cajun Seasoning,47.0
+2025-12-29,Mobile Workbench,64.0
+2025-12-29,Lightweight Backpacking Tent,100.0
+2025-12-29,Electric Nail File Kit,33.0
+2025-12-30,Vegetable Spring Rolls,15.0
+2025-12-31,Mini Projector,94.0
+2025-12-31,Adjustable Pet Feeder,61.0
+2026-01-01,Oven-Baked Potato Chips,39.0
+2026-01-02,Organic Whole Wheat Flour,58.0
+2026-01-03,Magnetic Whiteboard,86.0
+2026-01-05,Herb Drying Rack,10.0
+2026-01-05,Honey Sesame Cashews,34.0
+2026-01-05,Chickpeas,36.0
+2026-01-06,Sliced Olives,4.0
+2026-01-07,Incense Holder,47.0
+2026-01-07,Apple Cinnamon Oatmeal,4.0
+2026-01-07,Silicone Wine Glasses,79.0
+2026-01-08,Adjustable Dog Harness,24.0
+2026-01-09,Sliced Olives,45.0
+2026-01-09,Electric Egg Cooker,8.0
+2026-01-10,Smart Thermos,65.0
+2026-01-10,Savory Breakfast Sausage,42.0
+2026-01-10,Maple Breakfast Sausage,83.0
+2026-01-10,Digital Stopwatch Timer,91.0
+2026-01-12,Travel Jewelry Organizer,49.0
+2026-01-12,Car Emergency Kit,27.0
+2026-01-12,Electric Rice Cooker with Steamer,50.0
+2026-01-12,Electric Rice Cooker,13.0
+2026-01-14,Portable Water Filter,54.0
+2026-01-15,Bird Feeder,67.0
+2026-01-17,Greek Yogurt Parfait,10.0
+2026-01-17,Wireless Security System,50.0
+2026-01-18,Banana Chips,99.0
+2026-01-19,Pesto Pasta Salad,4.0
+2026-01-20,Vegan Mac & Cheese,46.0
+2026-01-21,Sweet Chili Thai Sauce,86.0
+2026-01-23,Mediterranean Chickpea Bowl,30.0
+2026-01-24,Spinach and Feta Wraps,53.0
+2026-01-25,Silicone Ice Cube Tray,60.0
+2026-01-25,Dark Chocolate Almond Butter Cups,35.0
+2026-01-27,Handheld Vacuum,15.0
+2026-01-28,Ceramic Bakeware Set,74.0
+2026-01-28,Foot Spa Bath Massager,7.0
+2026-01-31,Digital Photo Frame,43.0
+2026-02-01,Portable Hand Warmer,91.0
+2026-02-01,Stainless Steel Cutlery Set,87.0
+2026-02-02,Marinara Parmesan Baked Ziti,87.0
+2026-02-03,Chia Seed Pudding Mix,95.0
+2026-02-04,Maple Syrup,72.0
+2026-02-04,Savory Snack Mix,60.0
+2026-02-05,Honey Garlic Chicken,27.0
+2026-02-05,Adjustable Kitchen Broom Stand,87.0
+2026-02-06,Crispy Onion Rings,19.0
+2026-02-07,Fitness Balance Ball,49.0
