@@ -267,7 +267,7 @@ export default function App() {
                 Full name
                 <input
                   type="text"
-                  placeholder="Simra Patel"
+                  placeholder="Name"
                   value={authName}
                   onChange={(e) => setAuthName(e.target.value)}
                 />
@@ -282,7 +282,7 @@ export default function App() {
                 />
               </label>
               <label>
-                Passphrase
+                Password
                 <input
                   type="password"
                   placeholder="********"
