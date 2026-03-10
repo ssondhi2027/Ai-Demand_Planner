@@ -1,22 +1,3 @@
-# import pandas as pd
-# import numpy as np
-
-# def forecast_demand(df: pd.DataFrame, periods: int = 14):
-#     demand = df.groupby("date")["demand"].sum()
-
-#     mean = demand.mean()
-#     std = demand.std()
-
-#     future_dates = pd.date_range(
-#         start=demand.index.max(),
-#         periods=periods + 1,
-#         freq="D"
-#     )[1:]
-
-#     forecast = np.random.normal(mean, std, size=periods)
-
-#     return future_dates, forecast, forecast - std, forecast + std
-
 import pandas as pd
 import numpy as np
 from statsmodels.tsa.arima.model import ARIMA
@@ -26,9 +7,19 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 # -------------------------------
 # Feature Engineering
 # -------------------------------
+def _aggregate_by_date(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    return (
+        df.groupby("date", as_index=False)["demand"]
+        .sum()
+        .sort_values("date")
+        .reset_index(drop=True)
+    )
+
 def create_features(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
-    df["date"] = pd.to_datetime(df["date"], format="%Y-%m-%d", errors="coerce")
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
 
     df["lag_1"] = df["demand"].shift(1)
     df["lag_7"] = df["demand"].shift(7)
@@ -39,15 +30,29 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
 
     return df.dropna()
 
+def _build_feature_row(history: list[float], next_date: pd.Timestamp) -> pd.DataFrame:
+    return pd.DataFrame(
+        [
+            {
+                "lag_1": history[-1],
+                "lag_7": history[-7],
+                "rolling_7": float(np.mean(history[-7:])),
+                "rolling_14": float(np.mean(history[-14:])),
+                "day_of_week": next_date.dayofweek,
+                "month": next_date.month,
+            }
+        ]
+    )
+
 # -------------------------------
 # ARIMA Forecast
 # -------------------------------
 def forecast_arima(df: pd.DataFrame, horizon: int) -> dict:
-    df = df.sort_values("date")
-    if len(df) < 10:
+    df_agg = _aggregate_by_date(df)
+    if len(df_agg) < 10:
         raise ValueError("Not enough data points for ARIMA forecast (min 10)")
 
-    series = df.groupby("date")["demand"].sum().sort_index()
+    series = df_agg.set_index("date")["demand"].sort_index()
     freq = pd.infer_freq(series.index)
     if freq is None:
         series = series.asfreq("D", fill_value=0)
@@ -62,8 +67,8 @@ def forecast_arima(df: pd.DataFrame, horizon: int) -> dict:
     conf_int = forecast_result.conf_int()
 
     future_dates = pd.date_range(
-        start=df["date"].iloc[-1] + pd.Timedelta(days=1),
-        periods=horizon
+        start=series.index[-1] + pd.Timedelta(days=1),
+        periods=horizon,
     )
 
     return {
@@ -78,11 +83,11 @@ def forecast_arima(df: pd.DataFrame, horizon: int) -> dict:
 # XGBoost Forecast
 # -------------------------------
 def forecast_xgboost(df: pd.DataFrame, horizon: int) -> dict:
-    df = df.sort_values("date")
-    if len(df) < 30:
+    df_agg = _aggregate_by_date(df)
+    if len(df_agg) < 30:
         raise ValueError("Not enough data points for XGBoost forecast (min 30)")
 
-    df_feat = create_features(df)
+    df_feat = create_features(df_agg)
 
     features = [
         "lag_1", "lag_7", "rolling_7",
@@ -112,23 +117,18 @@ def forecast_xgboost(df: pd.DataFrame, horizon: int) -> dict:
     rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
 
     # Recursive forecasting
-    last_row = df_feat.iloc[-1:].copy()
-    last_date = pd.to_datetime(df["date"].iloc[-1])
+    history = df_agg["demand"].astype(float).tolist()
+    last_date = pd.to_datetime(df_agg["date"].iloc[-1])
     forecasts = []
 
     for _ in range(horizon):
-        X_last = last_row[features]
+        next_date = last_date + pd.Timedelta(days=1)
+        X_last = _build_feature_row(history, next_date)[features]
         pred = model.predict(X_last)[0]
         forecasts.append(pred)
 
-        # Update lags
-        last_row["lag_7"] = last_row["lag_1"]
-        last_row["lag_1"] = pred
-        last_row["rolling_7"] = np.mean(forecasts[-7:])
-        last_row["rolling_14"] = np.mean(forecasts[-14:])
-        last_date = last_date + pd.Timedelta(days=1)
-        last_row["day_of_week"] = last_date.dayofweek
-        last_row["month"] = last_date.month
+        history.append(pred)
+        last_date = next_date
 
     # Confidence intervals using residuals
     residuals = y_test - y_pred
@@ -138,8 +138,8 @@ def forecast_xgboost(df: pd.DataFrame, horizon: int) -> dict:
     upper = [f + 1.96 * sigma for f in forecasts]
 
     future_dates = pd.date_range(
-        start=df["date"].iloc[-1] + pd.Timedelta(days=1),
-        periods=horizon
+        start=df_agg["date"].iloc[-1] + pd.Timedelta(days=1),
+        periods=horizon,
     )
 
     return {

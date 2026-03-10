@@ -18,6 +18,10 @@ class ForecastResponse(BaseModel):
     upper: List[float]
     metrics: dict | None = None
 
+class HistoryResponse(BaseModel):
+    dates: List[str]
+    demand: List[float]
+
 class ReorderRequest(BaseModel):
     dataset_id: str
     lead_time_days: int = Field(..., ge=1, le=365)

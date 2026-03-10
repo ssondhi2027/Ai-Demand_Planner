@@ -21,6 +21,11 @@ type ForecastResult = {
   }
 }
 
+type HistoryResult = {
+  dates: string[]
+  demand: number[]
+}
+
 type UploadResponse = {
   dataset_id: string
   rows: number
@@ -28,13 +33,40 @@ type UploadResponse = {
 
 const API_BASE = import.meta.env.VITE_API_BASE ?? 'http://127.0.0.1:8000'
 
-function buildSeries(result: ForecastResult) {
-  return result.dates.map((date, i) => ({
-    date,
-    forecast: result.forecast[i],
-    lower: result.lower[i],
-    upper: result.upper[i]
-  }))
+function buildOverlaySeries(history: HistoryResult | null, result: ForecastResult | null) {
+  const points: Array<{
+    date: string
+    history?: number | null
+    forecast?: number | null
+    lower?: number | null
+    upper?: number | null
+  }> = []
+
+  if (history) {
+    history.dates.forEach((date, i) => {
+      points.push({
+        date,
+        history: history.demand[i],
+        forecast: null,
+        lower: null,
+        upper: null
+      })
+    })
+  }
+
+  if (result) {
+    result.dates.forEach((date, i) => {
+      points.push({
+        date,
+        history: null,
+        forecast: result.forecast[i],
+        lower: result.lower[i],
+        upper: result.upper[i]
+      })
+    })
+  }
+
+  return points
 }
 
 export default function App() {
@@ -48,16 +80,17 @@ export default function App() {
   const [horizon, setHorizon] = useState(30)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [history, setHistory] = useState<HistoryResult | null>(null)
   const [arimaResult, setArimaResult] = useState<ForecastResult | null>(null)
   const [xgbResult, setXgbResult] = useState<ForecastResult | null>(null)
 
   const arimaSeries = useMemo(
-    () => (arimaResult ? buildSeries(arimaResult) : []),
-    [arimaResult]
+    () => buildOverlaySeries(history, arimaResult),
+    [history, arimaResult]
   )
   const xgbSeries = useMemo(
-    () => (xgbResult ? buildSeries(xgbResult) : []),
-    [xgbResult]
+    () => buildOverlaySeries(history, xgbResult),
+    [history, xgbResult]
   )
 
   const canAuth = authName.trim() && authEmail.trim() && authPassword.trim()
@@ -93,7 +126,10 @@ export default function App() {
       setDatasetId(uploadData.dataset_id)
       setRows(uploadData.rows)
 
-      const [arimaRes, xgbRes] = await Promise.all([
+      const [historyRes, arimaRes, xgbRes] = await Promise.all([
+        fetch(
+          `${API_BASE}/api/forecast/history?dataset_id=${uploadData.dataset_id}`
+        ),
         fetch(`${API_BASE}/api/forecast/forecast`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -114,6 +150,10 @@ export default function App() {
         })
       ])
 
+      if (!historyRes.ok) {
+        const detail = await historyRes.json().catch(() => ({}))
+        throw new Error(detail.detail || 'History fetch failed')
+      }
       if (!arimaRes.ok) {
         const detail = await arimaRes.json().catch(() => ({}))
         throw new Error(detail.detail || 'ARIMA forecast failed')
@@ -123,9 +163,11 @@ export default function App() {
         throw new Error(detail.detail || 'XGBoost forecast failed')
       }
 
+      const historyData = (await historyRes.json()) as HistoryResult
       const arimaData = (await arimaRes.json()) as ForecastResult
       const xgbData = (await xgbRes.json()) as ForecastResult
 
+      setHistory(historyData)
       setArimaResult(arimaData)
       setXgbResult(xgbData)
       setStep('dashboard')
@@ -243,7 +285,7 @@ export default function App() {
                 Passphrase
                 <input
                   type="password"
-                  placeholder="••••••••"
+                  placeholder="********"
                   value={authPassword}
                   onChange={(e) => setAuthPassword(e.target.value)}
                 />
@@ -260,7 +302,7 @@ export default function App() {
             <h2>Upload demand history</h2>
             <p className="muted">
               Accepted columns: <span className="pill">date</span>{' '}
-              <span className="pill">product_name</span>{' '}
+              <span className="pill">product_id</span>{' '}
               <span className="pill">demand</span>
             </p>
             <form className="form" onSubmit={handleUpload}>
@@ -286,7 +328,7 @@ export default function App() {
                 />
               </label>
               <button className="primary" type="submit" disabled={!canUpload || loading}>
-                {loading ? 'Processing…' : 'Upload + Run ARIMA & XGBoost'}
+                {loading ? 'Processing...' : 'Upload + Run ARIMA & XGBoost'}
               </button>
               {error && <p className="error">{error}</p>}
             </form>
@@ -303,7 +345,7 @@ export default function App() {
                   {rows !== null && (
                     <>
                       {' '}
-                      • Rows <span className="pill">{rows}</span>
+                      - Rows <span className="pill">{rows}</span>
                     </>
                   )}
                 </p>
@@ -320,7 +362,7 @@ export default function App() {
                   />
                 </label>
                 <button className="ghost" onClick={handleRerun} disabled={loading}>
-                  {loading ? 'Re-running…' : 'Re-run forecasts'}
+                  {loading ? 'Re-running...' : 'Re-run forecasts'}
                 </button>
               </div>
             </div>
@@ -338,6 +380,7 @@ export default function App() {
                       <XAxis dataKey="date" tick={{ fontSize: 11 }} />
                       <YAxis tick={{ fontSize: 11 }} />
                       <Tooltip />
+                      <Line type="monotone" dataKey="history" stroke="#2b231c" strokeWidth={2} dot={false} />
                       <Line type="monotone" dataKey="forecast" stroke="#1b7f7a" strokeWidth={2} dot={false} />
                       <Line type="monotone" dataKey="lower" stroke="#9db7b5" strokeDasharray="4 4" dot={false} />
                       <Line type="monotone" dataKey="upper" stroke="#9db7b5" strokeDasharray="4 4" dot={false} />
@@ -356,6 +399,7 @@ export default function App() {
                       <XAxis dataKey="date" tick={{ fontSize: 11 }} />
                       <YAxis tick={{ fontSize: 11 }} />
                       <Tooltip />
+                      <Line type="monotone" dataKey="history" stroke="#2b231c" strokeWidth={2} dot={false} />
                       <Line type="monotone" dataKey="forecast" stroke="#f05d3b" strokeWidth={2} dot={false} />
                       <Line type="monotone" dataKey="lower" stroke="#f1b4a4" strokeDasharray="4 4" dot={false} />
                       <Line type="monotone" dataKey="upper" stroke="#f1b4a4" strokeDasharray="4 4" dot={false} />

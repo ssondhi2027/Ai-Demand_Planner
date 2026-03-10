@@ -1,6 +1,6 @@
 import pandas as pd
 
-REQUIRED_COLUMNS = {"date", "product_name", "demand"}
+REQUIRED_COLUMNS = {"date", "product_id", "demand"}
 
 def validate_csv(df: pd.DataFrame) -> pd.DataFrame:
     return validate_dataset(df, REQUIRED_COLUMNS)

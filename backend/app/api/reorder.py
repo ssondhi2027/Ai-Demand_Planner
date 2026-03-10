@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+import pandas as pd
 from app.schemas import ReorderRequest, ReorderResponse
 from app.services.data_service import load_dataset
 from app.services.inventory_service import calculate_reorder_point
@@ -16,6 +17,8 @@ def recommend_reorder(req: ReorderRequest):
 
     mean = df["demand"].mean()
     std = df["demand"].std()
+    if pd.isna(std):
+        std = 0.0
 
     rp, ss = calculate_reorder_point(
         mean, std, req.lead_time_days, req.service_level
